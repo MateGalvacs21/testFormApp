@@ -1,0 +1,29 @@
+
+.login-box {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box > * {
+  padding: 8px;
+}
+
+.form-box iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.form-box {
+  height: 1000px;
+}
+
+.main {
+  height: 100%;
+}
